@@ -1,0 +1,55 @@
+@media screen and (max-width: 768px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: sans-serif;
+  }
+
+  .container {
+    background-color: #222835;
+    padding: 0 10px;
+  }
+
+  .box {
+    border-top: 1px solid #444;
+    border-bottom: 1px solid #444;
+  }
+
+  .heading {
+    padding: 20px;
+    color: #fff;
+    background-color: #222835;
+    position: relative;
+  }
+
+  .heading::after {
+    content: "\002B";
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+
+  .heading:hover + .list {
+    display: block;
+  }
+
+  .heading:hover::after {
+    content: "\2212";
+  }
+
+  .list {
+    display: none;
+    background-color: #10141f;
+    color: #6a6b6e;
+    padding: 20px 40px;
+    margin: 0 -10px;
+  }
+
+  .item {
+    margin: 20px 0;
+  }
+}
