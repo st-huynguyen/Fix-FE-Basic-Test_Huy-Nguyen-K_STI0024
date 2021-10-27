@@ -1,0 +1,21 @@
+.light-img {
+  width: 30px;
+  margin: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.random-button {
+  font-weight: 500;
+  color: #fff;
+  background-color: #4152af;
+  border: 0;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}

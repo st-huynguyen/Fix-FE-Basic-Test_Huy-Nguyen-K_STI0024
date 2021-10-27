@@ -1,0 +1,32 @@
+.btn {
+  cursor: pointer;
+  font-weight: 500;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 100px;
+  border: 0;
+}
+
+.btn-disabled {
+  opacity: 0.5;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #4152af;
+}
+
+.btn-outline {
+  background-color: #fff;
+  border: 1px solid #999;
+}
+
+.btn-outline-primary {
+  background-color: #fff;
+  border: 1px solid #4152af;
+  color: #4152af;
+}
+
+.btn-sm {
+  padding: 5px 10px;
+}

@@ -1,0 +1,66 @@
+.container {
+  width: 300px;
+  height: 300px;
+  padding: 20px;
+  border: 1px solid #000;
+  position: relative;
+}
+
+.box {
+  font-family: "Roboto", sans-serif;
+  position: absolute;
+  width: 20px;
+  padding: 20px;
+  border: 1px solid #000;
+  text-align: center;
+}
+
+.box-a {
+  top: 20px;
+  left: 20px;
+}
+
+.box-b {
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.box-c {
+  top: 20px;
+  right: 20px;
+}
+
+.box-d {
+  top: 50%;
+  left: 20px;
+  transform: translateY(-50%);
+}
+
+.box-e {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.box-f {
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+}
+
+.box-g {
+  bottom: 20px;
+  left: 20px;
+}
+
+.box-h {
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.box-i {
+  bottom: 20px;
+  right: 20px;
+}
