@@ -2,7 +2,7 @@
   cursor: pointer;
   font-weight: 500;
   display: inline-block;
-  padding: 10px 20px;
+  padding: 8px 14px;
   border-radius: 100px;
   border: 0;
 }
@@ -21,12 +21,63 @@
   border: 1px solid #999;
 }
 
-.btn-outline-primary {
-  background-color: #fff;
+.btn-outline.btn-primary {
   border: 1px solid #4152af;
   color: #4152af;
 }
 
 .btn-sm {
   padding: 5px 10px;
+}
+
+.btn-delete,
+.btn-check {
+  position: relative;
+}
+
+.btn-delete::after,
+.btn-check::after {
+  display: inline-block;
+  height: 14px;
+  width: 14px;
+  margin-left: 6px;
+  border-radius: 20px;
+}
+
+.btn-check::after {
+  content: url("./assets/btn-check.svg");
+}
+
+.btn-primary.btn-check::after {
+  content: url("./assets/btn-check-p.svg");
+}
+
+.btn-outline.btn-check::after {
+  content: url("./assets/btn-check-o.svg");
+}
+
+.btn-outline.btn-primary.btn-check::after {
+  content: url("./assets/btn-check-p-o.svg");
+}
+
+.btn-delete::after {
+  content: url("./assets/btn-delete.svg");
+}
+
+.btn-primary.btn-delete::after {
+  content: url("./assets/btn-delete-p.svg");
+}
+
+.btn-outline.btn-delete::after {
+  content: url("./assets/btn-delete-o.svg");
+}
+
+.btn-outline.btn-primary.btn-delete::after {
+  content: url("./assets/btn-delete-p-o.svg");
+}
+
+.btn-sm.btn-delete::after,
+.btn-sm.btn-check::after {
+  height: 10px;
+  width: 10px;
 }
